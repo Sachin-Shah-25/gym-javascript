@@ -1,0 +1,228 @@
+/* .firstContent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    padding: 10px 20px;
+    row-gap: 20px;
+
+
+    @media (max-width:1000px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width:800px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width:600px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+#ProName  {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 40px;
+    max-height: 40px;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      
+    }
+
+  
+
+}
+.items .buttons {
+    width: 100%;
+
+    button {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        padding: 5px 0px;
+        cursor: pointer;
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 2px;
+    }
+
+    & button:first-child {
+        background-color: green;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+        }
+    }
+}
+.items p {
+    height: 80px;
+}
+
+.items p,
+span {
+    font-size: 1rem;
+} */
+
+#firstHeading {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+   
+}
+.firstContent {
+    /* border: 1px solid gray; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    padding: 10px 0px;
+    row-gap: 20px;
+    overflow-x: scroll;
+    /* margin-bottom: 20px; */
+
+    &::-webkit-scrollbar {
+        height: 10px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background-color: rgba(128, 128, 128, 0.459);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: gray;
+        cursor: grab;
+    }
+
+
+    @media (max-width:1000px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width:800px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width:600px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width:400px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    max-width: 275px;
+    box-shadow: 1px 1px 1px 0px black;
+   
+}
+
+#ProName {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 40px;
+    max-height: 40px;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    font-size: 2rem;
+    margin-top: 50px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+        color: black;
+      
+    }
+
+    /* left: 10%; */
+
+}
+#proDetails{
+    font-size: 1.2rem;
+}
+
+.items p {
+    height: 100px;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.items p,
+span {
+    font-size: 1rem;
+}
+
+.items p,
+span,
+.orderButtons {
+    padding: 5px 5px;
+}
+.items .image{
+    padding: 5px;
+    overflow: hidden;
+}
+.items img {
+    width: 100%;
+    height: 170px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+
+    &:hover {
+        transform: scale(1.1);
+        border-radius: 10px;
+    }
+}
+
+.items a{
+    text-decoration: none;
+}
+
+.items .orderButtons {
+    width: 100%;
+
+    button {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        padding: 5px 0px;
+        cursor: pointer;
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 2px;
+    }
+
+    & button:first-child {
+        background-color: green;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+        }
+    }
+
+   
+
+}
+
+

@@ -1,0 +1,8 @@
+IMP_KEY={
+    SENDER_EMAIL:"sachinshah064689@gmail.com",
+    RECEIVER_EMAIL:"sachinshah25082001@gmail.com",
+    PASSWORD:"873414AE01D10021190EFB8E3A715502CFBC",
+    API_KEY:"AIzaSyArJ810resMaxg9PdvV0mhqyPSKhzFZXMw",
+    PROTECT_ID:"admin-2c1d3",
+    APP_ID:"1:1062636045066:web:062050bdc18be67426f0f3"
+}
